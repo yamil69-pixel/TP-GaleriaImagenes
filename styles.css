@@ -1,0 +1,119 @@
+/* Estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del menú */
+header {
+    display: flex;
+    height: 50px;
+    background-color: #333;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin: 80px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 80px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos de la grilla de imágenes */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px;
+}
+
+.imagen {
+    flex: 25%;
+    padding: 5px;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos de la sección con imagen */
+.seccion-con-imagen {
+    background-color: rgb(19, 35, 135);
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 85px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.caja{
+    padding: 30px;
+}
+
+.seccion-con-imagen img{
+    height: 200px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.caja h2{
+    color: white;
+    font-size: 24px; 
+    margin-bottom: 20px; 
+}
+
+.caja p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.seccion-con-imagen a{
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+ }  
+
+ .seccion-con-imagen a:hover{
+    background-color: gray;
+}
+
+/* No supe arreglar la imagen, cuando pongo inspeccionar se "rompe" y se hace mas grande que su contenedor */
+
+
+
+
+
